@@ -1,6 +1,6 @@
 package task.collections.customCollection;
 
-import java.util.ArrayList;
+import java.util.*;
 
 public class ArrayListCustom<E> extends ArrayList<E> {
 
@@ -25,8 +25,7 @@ public class ArrayListCustom<E> extends ArrayList<E> {
 		}
 		System.out.println();
 	}
-	public void fetchElement(int i,ArrayListCustom a) {
-		
-			System.out.print(a.get(i));
+	public void fetchElement(int i,ArrayListCustom a){
+		System.out.print(a.get(i));
 	}
 }
