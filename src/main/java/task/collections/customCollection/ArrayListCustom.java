@@ -26,7 +26,6 @@ public class ArrayListCustom<E> extends ArrayList<E> {
 		System.out.println();
 	}
 	public void fetchElement(int i,ArrayListCustom a) {
-		
 			System.out.print(a.get(i));
 	}
 }
